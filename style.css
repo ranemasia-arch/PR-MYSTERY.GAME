@@ -199,12 +199,12 @@ video {
 
 .raneem-link { 
   cursor: pointer; 
-  color: var(--blue);
+  color: var(--text); /* لون أبيض عادي مثل باقي الأسماء */
   transition: color 0.2s ease;
 }
 
 .raneem-link:hover { 
-  color: var(--violet); 
+  color: var(--blue); /* يتغير للون الأزرق عند تمرير الماوس عليه */
   text-decoration: underline;
 }
 
@@ -245,6 +245,7 @@ video {
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
 }
+
 /* تنسيق إطار يوتيوب ليتوافق مع تصميم الموقع */
 .video-frame iframe {
   display: block;
