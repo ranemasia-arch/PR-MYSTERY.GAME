@@ -254,3 +254,15 @@ video {
   border: none;
   background: #03060c;
 }
+.raneem-link, 
+.raneem-link:visited, 
+.raneem-link:active { 
+  cursor: pointer; 
+  color: #c8d3e7; /* نفس لون بقية الأسماء بالضبط */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.raneem-link:hover { 
+  color: var(--blue);
+}
