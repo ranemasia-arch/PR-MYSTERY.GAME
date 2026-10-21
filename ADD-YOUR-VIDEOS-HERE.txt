@@ -1,0 +1,2 @@
+Put your own main video here and name it main-video.mp4.
+The second video can be hosted elsewhere; paste its direct download URL in the HTML comment in index.html.
