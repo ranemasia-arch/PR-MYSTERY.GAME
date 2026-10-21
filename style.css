@@ -245,3 +245,11 @@ video {
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; transition: none !important; }
 }
+/* تنسيق إطار يوتيوب ليتوافق مع تصميم الموقع */
+.video-frame iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: none;
+  background: #03060c;
+}
